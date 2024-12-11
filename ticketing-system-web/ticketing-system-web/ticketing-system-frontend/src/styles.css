@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+h3 {
+    font-size: 24px;
+}
+
+.App {
+    padding: 0 24px;
+}
+.Content {
+    display: flex;
+    justify-content: space-between;
+}
+.Right {
+    width: 40%;
+}
+.ConfigurationForm {
+    padding-bottom: 24px;
+}
+input {
+    margin: 10px 0;
+    padding: 8px;
+    width: calc(100% - 20px);
+}
+.FormInput {
+    padding: 4px;
+}
+
+.Start {
+    background-color: #008800;
+}
+.Start:hover:not(:disabled) {
+    background-color: #00aa00;
+}
+
+.Stop {
+    background-color: #880000;
+}
+
+.Stop:hover:not(:disabled) {
+    background-color: #aa0000;
+}
+.btn {
+    display: flex;
+    gap: 16px;
+    justify-content: end;
+}
+button {
+    padding: 10px 15px;
+    background-color: #000088;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+    margin-right: 6px;
+}
+button:hover {
+    background-color: #0000aa;
+}
+
+button:disabled {
+    background-color: #888888;
+    cursor: not-allowed;
+
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table,
+th,
+td {
+    border: 1px solid #888888;
+}
+
+th,
+td {
+    padding: 16px;
+    text-align: left;
+}
+th {
+    background-color: #cccccc;
+    text-align: center;
+}

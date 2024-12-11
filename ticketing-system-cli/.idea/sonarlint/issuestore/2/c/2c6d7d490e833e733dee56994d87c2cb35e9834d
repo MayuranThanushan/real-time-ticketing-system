@@ -1,0 +1,13 @@
+
+n
+java:S1192&"LDefine a constant instead of duplicating this literal "config.json" 3 times.(ËÃúõøÿÿÿÿ8ãÜĞ¬»2
+~
+java:S1450"\Remove the "configuration" field and declare it as a local variable in the relevant methods.(Œ¦ñÖüÿÿÿÿ8”İĞ¬»2
+{
+java:S1450"YRemove the "ticketPool" field and declare it as a local variable in the relevant methods.(°òèúÿÿÿÿ8•İĞ¬»2
+|
+java:S1128"4Remove this unused import 'java.time.LocalDateTime'.(æÃ§ƒüÿÿÿÿ8µ¤Ç¬»2J$b4617733-7454-4326-8716-ddc0f13b5ee8
+s
+java:S1128"1Remove this unused import 'java.util.LinkedList'.(»Äğ18¶¤Ç¬»2J$8c048ee4-3270-4a00-89a7-15341fdb0213
+o
+java:S1128",Remove this unused import 'java.util.Queue'.(Äá™ô8·¤Ç¬»2J$0bf04c70-66f6-4c5a-8cfc-fed986a08f27
