@@ -22,7 +22,7 @@ public class TicketingSystemApplication {
             public void addCorsMappings(CorsRegistry registry) {
                 // Configure CORS mappings for API endpoints
                 registry.addMapping("/api/**")  // Apply CORS settings to all API endpoints under /api/*
-                        .allowedOrigins("http://localhost:3000")  // Allow requests from localhost:3000 (typically for development)
+                        .allowedOrigins("http://localhost:3000", "https://real-time-ticketing-system.vercel.app/")  // Allow requests from localhost:3000 (typically for development)
                         .allowedMethods("GET", "POST", "PUT", "DELETE")  // Allow specific HTTP methods
                         .allowCredentials(true);  // Allow cookies and authentication credentials in CORS requests
             }
